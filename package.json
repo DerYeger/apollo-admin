@@ -1,0 +1,72 @@
+{
+  "name": "apollo-admin",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:es": "eslint --ext \".js,.vue,.ts\" --ignore-path .gitignore .",
+    "lint:style": "stylelint \"**/*.{vue,css,ts}\" --ignore-path .gitignore",
+    "lint": "yarn lint:es && yarn lint:style",
+    "test": "jest",
+    "pretty": "prettier --write \"./**/*.{js,json,html,scss,ts,vue,yml}\""
+  },
+  "lint-staged": {
+    "*.{js,vue}": "eslint",
+    "*.{css,vue}": "stylelint"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "dependencies": {
+    "@nuxtjs/composition-api": "0.26.0",
+    "@nuxtjs/axios": "5.13.6",
+    "@nuxtjs/pwa": "3.3.5",
+    "@nuxtjs/sitemap": "2.4.0",
+    "core-js": "3.16.0",
+    "nuxt": "2.15.7",
+    "nuxt-i18n": "6.28.0",
+    "secure-ls": "1.2.6",
+    "vue": "2.6.14",
+    "vue-persistent-storage-manager": "2.0.2",
+    "vuex": "3.6.2",
+    "vuex-persistedstate": "4.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "13.1.0",
+    "@commitlint/config-conventional": "13.1.0",
+    "@nuxt/types": "2.15.7",
+    "@nuxt/typescript-build": "2.1.0",
+    "@nuxtjs/eslint-config-typescript": "6.0.1",
+    "@nuxtjs/eslint-module": "3.0.2",
+    "@nuxtjs/stylelint-module": "4.0.0",
+    "@nuxtjs/vuetify": "1.12.1",
+    "@vue/test-utils": "1.2.2",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "10.1.0",
+    "babel-jest": "27.0.6",
+    "eslint": "7.31.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-nuxt": "2.0.0",
+    "eslint-plugin-prettier": "3.4.0",
+    "eslint-plugin-vue": "7.15.0",
+    "eslint-plugin-vuetify": "1.0.1",
+    "husky": "4.3.8",
+    "jest": "27.0.6",
+    "jest-canvas-mock": "2.3.1",
+    "lint-staged": "11.1.1",
+    "prettier": "2.3.2",
+    "stylelint": "13.13.1",
+    "stylelint-config-prettier": "8.0.2",
+    "stylelint-config-standard": "22.0.0",
+    "stylelint-scss": "3.20.1",
+    "ts-jest": "27.0.4",
+    "vue-jest": "3.0.7",
+    "vuetify": "2.5.7"
+  }
+}
