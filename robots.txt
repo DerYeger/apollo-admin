@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://apollo-admin.yeger.eu/sitemap.xml
