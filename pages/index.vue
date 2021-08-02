@@ -1,5 +1,5 @@
 <template>
-  <v-banner width="100%" color="info" dark rounded>
+  <v-banner width="100%" max-width="450px" color="secondary" dark rounded>
     <span>Under construction</span>
   </v-banner>
 </template>
