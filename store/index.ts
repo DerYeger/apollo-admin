@@ -7,5 +7,6 @@ export type Dispatcher = { dispatch: Dispatch }
 export const actions = {
   reset({ dispatch }: Dispatcher) {
     dispatch('settings/reset')
+    dispatch('users/reset')
   },
 }

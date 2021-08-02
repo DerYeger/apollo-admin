@@ -1,6 +1,6 @@
 <template>
   <v-form v-model="valid" style="width: 100%" class="d-flex justify-center flex-column" @submit.prevent="login">
-    <v-banner v-if="isLogout" color="info" class="mb-3" dark rounded>
+    <v-banner v-if="wasLoggedOut" color="info" class="mb-3" dark rounded>
       {{ $t('login.logout-successful') }}
     </v-banner>
     <v-card width="100%" elevation="6">
@@ -8,8 +8,22 @@
         {{ $t('login.title') }}
       </v-card-title>
       <v-card-text>
-        <v-text-field v-model="credentials.username" type="text" :rules="usernameRules" :label="$t('login.username')" required />
-        <v-text-field v-model="credentials.password" type="password" :rules="passwordRules" :label="$t('login.password')" required />
+        <v-text-field
+          v-model="credentials.username"
+          type="text"
+          :counter="maxInputLength"
+          :rules="rules"
+          :label="$t('login.username')"
+          required
+        />
+        <v-text-field
+          v-model="credentials.password"
+          type="password"
+          :counter="maxInputLength"
+          :rules="rules"
+          :label="$t('login.password')"
+          required
+        />
       </v-card-text>
       <v-card-actions>
         <v-spacer />
@@ -45,19 +59,22 @@ export default defineComponent({
       }
     }
     const route = useRoute()
-    const isLogout = computed(() => route.value.query.logout === 'true')
+    const wasLoggedOut = computed(() => route.value.query.logout === 'true')
 
     useHead(routes.login)
 
     const valid = ref(false)
 
+    const maxInputLength = 30
+    const rules = textRules(app.i18n, maxInputLength)
+
     return {
       credentials,
+      wasLoggedOut,
       login,
-      isLogout,
+      maxInputLength,
+      rules,
       valid,
-      usernameRules: textRules(app.i18n, 30),
-      passwordRules: textRules(app.i18n, 30),
     }
   },
   head: {},

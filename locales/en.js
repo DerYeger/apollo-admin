@@ -3,6 +3,7 @@ export default {
     'change-language': 'Change language',
     'close-menu': 'Close menu',
     create: 'Create',
+    'create-user': 'Create user',
     delete: 'Delete',
     edit: 'Edit',
     login: 'Login',
@@ -46,7 +47,16 @@ export default {
     storage: 'Storage',
     title: 'Settings',
   },
+  users: {
+    title: 'Users',
+    create: {
+      password: 'Password',
+      'password-repeat': 'Repeat password',
+      username: 'Username',
+    },
+  },
   validations: {
+    'must-match-password': 'Must match the password',
     required: 'Input required',
     'too-long': 'Input cannot exceed {0} characters',
   },

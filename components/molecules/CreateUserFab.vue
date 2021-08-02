@@ -1,0 +1,24 @@
+<template>
+  <v-dialog v-model="dialog" transition="dialog-bottom-transition" max-width="600">
+    <template #activator="{ on, attrs }">
+      <v-btn fab fixed bottom right color="secondary" v-bind="attrs" v-on="on">
+        <v-icon v-text="'mdi-plus'" />
+      </v-btn>
+    </template>
+    <user-form @create="dialog = false" />
+  </v-dialog>
+</template>
+
+<script lang="ts">
+import { defineComponent, ref } from '@nuxtjs/composition-api'
+
+export default defineComponent({
+  setup() {
+    const dialog = ref(false)
+
+    return {
+      dialog,
+    }
+  },
+})
+</script>

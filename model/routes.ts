@@ -11,13 +11,18 @@ export const routes = {
     to: '/',
     icon: 'mdi-home',
   },
-  login: {
-    title: 'login.title',
-    to: '/login',
+  users: {
+    title: 'users.title',
+    to: '/users',
+    icon: 'mdi-account-multiple',
   },
   settings: {
     title: 'settings.title',
     to: '/settings',
     icon: 'mdi-cog',
+  },
+  login: {
+    title: 'login.title',
+    to: '/login',
   },
 }

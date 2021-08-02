@@ -3,6 +3,7 @@ export default {
     'change-language': 'Sprachen ändern',
     'close-menu': 'Menü schließen',
     create: 'Erstellen',
+    'create-user': 'Nutzer erstellen',
     delete: 'Löschen',
     edit: 'Bearbeiten',
     login: 'Anmelden',
@@ -41,7 +42,16 @@ export default {
     storage: 'Speicher',
     title: 'Einstellungen',
   },
+  users: {
+    title: 'Nutzer',
+    create: {
+      password: 'Passwort',
+      'password-repeat': 'Passwort wiederholen',
+      username: 'Nutzername',
+    },
+  },
   validations: {
+    'must-match-password': 'Muss dem Password entsprechen',
     required: 'Eingabe erforderlich',
     'too-long': 'Eingabe darf maximal {0} Zeichen lang sein',
   },
