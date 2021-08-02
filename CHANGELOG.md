@@ -1,3 +1,12 @@
+## [1.3.2](https://github.com/DerYeger/apollo-admin/compare/v1.3.1...v1.3.2) (2021-08-02)
+
+
+### Bug Fixes
+
+* include formula in assignment card ([5239eaa](https://github.com/DerYeger/apollo-admin/commit/5239eaa0450696fe1a1f2354c9ff4239af0776b7))
+* update dashboard placeholder ([de3d435](https://github.com/DerYeger/apollo-admin/commit/de3d435dd0cdccf3c77654608f7a4375c098594c))
+* update login page visuals ([d18d15b](https://github.com/DerYeger/apollo-admin/commit/d18d15b47ef73550ef2a5ee3752289b8ab892c69))
+
 ## [1.3.1](https://github.com/DerYeger/apollo-admin/compare/v1.3.0...v1.3.1) (2021-08-02)
 
 
