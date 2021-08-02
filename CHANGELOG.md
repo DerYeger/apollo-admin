@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/DerYeger/apollo-admin/compare/v1.1.0...v1.2.0) (2021-08-02)
+
+
+### Features
+
+* implement user creation and deletion ([f50430d](https://github.com/DerYeger/apollo-admin/commit/f50430d20a8f5ce51b087a2223a573ccd604d36e))
+
 # [1.1.0](https://github.com/DerYeger/apollo-admin/compare/v1.0.0...v1.1.0) (2021-08-02)
 
 
