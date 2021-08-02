@@ -47,6 +47,7 @@ The parsing and validation logic of the backend is built upon a Java desktop app
 ## Links
 
 - [Apollo](https://github.com/DerYeger/apollo)
+- [Apollo-Frontend](https://github.com/DerYeger/apollo-frontend)
 - [Apollo-Backend](https://github.com/DerYeger/apollo-backend)
 - [Deployment](https://apollo-admin.yeger.eu/)
 - [Bachelor's thesis (German)](https://jan-mueller.at/documents/bachelor-thesis)
