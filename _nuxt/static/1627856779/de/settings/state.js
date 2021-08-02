@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a,b){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1627856779",layout:a,error:b,state:{settings:{layout:a,useDarkTheme:false},i18n:{routeParams:{}}},serverRendered:true,routePath:"\u002Fde\u002Fsettings",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:b}},globalRefs:{}}}("default",null));
