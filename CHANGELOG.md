@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/DerYeger/apollo-admin/compare/v1.2.0...v1.3.0) (2021-08-02)
+
+
+### Features
+
+* implement assignment creation and deletion ([5b88ad9](https://github.com/DerYeger/apollo-admin/commit/5b88ad9ad086eb1a91198af019de3b6c054cdf29))
+
 # [1.2.0](https://github.com/DerYeger/apollo-admin/compare/v1.1.0...v1.2.0) (2021-08-02)
 
 
