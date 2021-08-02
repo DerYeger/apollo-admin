@@ -28,7 +28,7 @@ export default defineComponent({
 
     return {
       logout,
-      routes: [routes.dashboard, routes.users, routes.settings],
+      routes: [routes.dashboard, routes.assignments, routes.users, routes.settings],
     }
   },
 })

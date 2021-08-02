@@ -63,10 +63,19 @@ export default defineComponent({
     const { $axios, app } = useContext()
     const store = useStore()
     const createUser = async function () {
-      const createdUser = (await $axios.post<User>('/users', userData)).data
-      store.commit('users/add', createdUser)
-      resetForm()
-      emit('create')
+      try {
+        const body = {
+          name: userData.name.trim(),
+          password: userData.password.trim(),
+        }
+        const createdUser = (await $axios.post<User>('/users', body)).data
+        store.commit('users/add', createdUser)
+        resetForm()
+        emit('create')
+      } catch (error) {
+        // TODO
+        window.alert(error)
+      }
     }
 
     const valid = ref(false)

@@ -1,8 +1,8 @@
 export interface Route {
-  title: string
-  navTitle?: string
-  to: string
-  icon?: string
+  readonly title: string
+  readonly navTitle?: string
+  readonly to: string
+  readonly icon?: string
 }
 
 export const routes = {
@@ -10,6 +10,11 @@ export const routes = {
     title: 'dashboard.title',
     to: '/',
     icon: 'mdi-home',
+  },
+  assignments: {
+    title: 'assignments.title',
+    to: '/assignments',
+    icon: 'mdi-text-box-multiple',
   },
   users: {
     title: 'users.title',

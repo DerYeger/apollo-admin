@@ -3,6 +3,7 @@ export default {
     'change-language': 'Change language',
     'close-menu': 'Close menu',
     create: 'Create',
+    'create-assignment': 'Create assignment',
     'create-user': 'Create user',
     delete: 'Delete',
     edit: 'Edit',
@@ -14,6 +15,14 @@ export default {
     update: 'Update',
     'use-dark-theme': 'Switch to dark theme',
     'use-light-theme': 'Switch to light theme',
+  },
+  assignments: {
+    create: {
+      description: 'Beschreibung',
+      formula: 'Formel',
+      title: 'Titel',
+    },
+    title: 'Assignments',
   },
   dashboard: {
     title: 'Dashboard',
@@ -48,12 +57,12 @@ export default {
     title: 'Settings',
   },
   users: {
-    title: 'Users',
     create: {
       password: 'Password',
       'password-repeat': 'Repeat password',
       username: 'Username',
     },
+    title: 'Users',
   },
   validations: {
     'must-match-password': 'Must match the password',

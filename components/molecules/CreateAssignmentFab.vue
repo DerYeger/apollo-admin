@@ -1,11 +1,11 @@
 <template>
   <v-dialog v-model="dialog" transition="dialog-bottom-transition" max-width="600">
     <template #activator="{ on, attrs }">
-      <v-btn fab fixed bottom right color="secondary" v-bind="attrs" :aria-label="$t('actions.create-user')" v-on="on">
+      <v-btn fab fixed bottom right color="secondary" v-bind="attrs" :aria-label="$t('actions.create-assignment')" v-on="on">
         <v-icon v-text="'mdi-plus'" />
       </v-btn>
     </template>
-    <user-form @create="dialog = false" />
+    <assignment-form @create="dialog = false" />
   </v-dialog>
 </template>
 

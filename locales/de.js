@@ -3,6 +3,7 @@ export default {
     'change-language': 'Sprachen ändern',
     'close-menu': 'Menü schließen',
     create: 'Erstellen',
+    'create-assignment': 'Aufgabe erstellen',
     'create-user': 'Nutzer erstellen',
     delete: 'Löschen',
     edit: 'Bearbeiten',
@@ -14,6 +15,14 @@ export default {
     update: 'Aktualisieren',
     'use-dark-theme': 'Zum dunklen Design wechseln',
     'use-light-theme': 'Zum hellen Design wechseln',
+  },
+  assignments: {
+    create: {
+      description: 'Beschreibung',
+      formula: 'Formel',
+      title: 'Titel',
+    },
+    title: 'Aufgaben',
   },
   dashboard: {
     title: 'Dashboard',
@@ -43,12 +52,12 @@ export default {
     title: 'Einstellungen',
   },
   users: {
-    title: 'Nutzer',
     create: {
       password: 'Passwort',
       'password-repeat': 'Passwort wiederholen',
       username: 'Nutzername',
     },
+    title: 'Nutzer',
   },
   validations: {
     'must-match-password': 'Muss dem Password entsprechen',
