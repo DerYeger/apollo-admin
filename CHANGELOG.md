@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/DerYeger/apollo-admin/compare/v1.0.0...v1.1.0) (2021-08-02)
+
+
+### Features
+
+* implement authentication ([1121a3b](https://github.com/DerYeger/apollo-admin/commit/1121a3b6f9810b2aab714e122786d2b974406772))
+
 # 1.0.0 (2021-08-01)
 
 
