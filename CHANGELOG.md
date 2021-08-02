@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/DerYeger/apollo-admin/compare/v1.3.0...v1.3.1) (2021-08-02)
+
+
+### Bug Fixes
+
+* **deps:** pin dependency vue-masonry-wall to 0.3.2 ([c5fd8f5](https://github.com/DerYeger/apollo-admin/commit/c5fd8f5c9ddac16d9896fd8baa0644bd72876ed1))
+
 # [1.3.0](https://github.com/DerYeger/apollo-admin/compare/v1.2.0...v1.3.0) (2021-08-02)
 
 
