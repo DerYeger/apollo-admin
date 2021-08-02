@@ -1,9 +1,9 @@
 <template>
-  <v-form v-model="valid" style="width: 100%" class="d-flex justify-center flex-column" @submit.prevent="login">
-    <v-banner v-if="wasLoggedOut" color="info" class="mb-3" dark rounded>
+  <v-form v-model="valid" style="width: 100%; max-width: 450px" class="d-flex justify-center flex-column" @submit.prevent="login">
+    <v-banner v-if="wasLoggedOut" color="secondary" class="mb-3" dark rounded elevation="6">
       {{ $t('login.logout-successful') }}
     </v-banner>
-    <v-card width="100%" elevation="6">
+    <v-card width="100%" max-width="450px" elevation="6">
       <v-card-title>
         {{ $t('login.title') }}
       </v-card-title>
