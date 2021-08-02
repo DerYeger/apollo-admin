@@ -8,12 +8,15 @@
               <v-icon class="mr-2" color="primary" v-text="'mdi-text-box'" />
               {{ item.title }}
             </v-card-title>
-            <v-card-subtitle>
+            <v-card-subtitle class="pb-2">
               {{ item.id }}
             </v-card-subtitle>
-            <v-card-text v-show="item.description !== undefined">
+            <v-card-title class="pt-0">
+              {{ item.formula }}
+            </v-card-title>
+            <v-card-subtitle v-show="item.description !== undefined">
               {{ item.description }}
-            </v-card-text>
+            </v-card-subtitle>
             <v-card-actions>
               <v-spacer />
               <v-btn icon color="primary" :aria-label="$t('actions.edit')" disabled>
