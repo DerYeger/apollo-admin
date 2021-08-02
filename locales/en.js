@@ -5,6 +5,8 @@ export default {
     create: 'Create',
     delete: 'Delete',
     edit: 'Edit',
+    login: 'Login',
+    logout: 'Logout',
     'open-menu': 'Open menu',
     reset: 'Reset',
     search: 'Search',
@@ -25,10 +27,17 @@ export default {
     de: 'Deutsch',
     en: 'English',
   },
+  login: {
+    'logout-successful': 'You have been logged out',
+    password: 'Password',
+    title: 'Login',
+    username: 'Username',
+  },
   misc: {
     navigation: 'Navigation',
     'no-data': 'No data available',
     'no-results': 'No results',
+    resources: 'Resources',
   },
   settings: {
     appearance: 'Appearance',

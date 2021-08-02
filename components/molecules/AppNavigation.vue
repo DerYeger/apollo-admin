@@ -12,7 +12,7 @@ import { routes } from '~/model/routes'
 export default defineComponent({
   data() {
     return {
-      routes: Object.values(routes),
+      routes: [routes.dashboard, routes.settings],
     }
   },
 })

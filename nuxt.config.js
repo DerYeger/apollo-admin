@@ -1,6 +1,8 @@
 import app from './app.config'
 import i18nConfiguration from './locales/i18n'
 
+const development = process.env.NODE_ENV !== 'production'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -42,13 +44,45 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    // https://auth.nuxtjs.org
+    '@nuxtjs/auth-next',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     '@nuxtjs/sitemap',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {},
+  axios: {
+    baseURL: development ? 'http://localhost:8080' : 'https://yeger.eu/apollo',
+  },
+
+  auth: {
+    strategies: {
+      local: {
+        token: {
+          property: 'token',
+        },
+        user: {
+          property: false,
+          autoFetch: true,
+        },
+        endpoints: {
+          login: { url: '/auth/login', method: 'post' },
+          logout: false,
+          user: { url: '/auth/me', method: 'get' },
+        },
+      },
+    },
+    redirect: {
+      login: '/login',
+      logout: false,
+    },
+    resetOnError: true,
+  },
+
+  router: {
+    middleware: ['auth'],
+  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {

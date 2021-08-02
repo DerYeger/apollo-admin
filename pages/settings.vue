@@ -32,14 +32,13 @@
 import { defineComponent } from '@nuxtjs/composition-api'
 import { mapActions } from 'vuex'
 import { routes } from '~/model/routes'
+import { useHead } from '~/compositions/head'
 
 export default defineComponent({
-  head() {
-    const title = this.$t(routes.settings.title) as string
-    return {
-      title,
-    }
+  setup() {
+    useHead(routes.settings)
   },
+  head: {},
   methods: mapActions(['reset']),
 })
 </script>

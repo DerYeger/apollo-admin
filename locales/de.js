@@ -5,6 +5,8 @@ export default {
     create: 'Erstellen',
     delete: 'Löschen',
     edit: 'Bearbeiten',
+    login: 'Anmelden',
+    logout: 'Abmelden',
     'open-menu': 'Menü öffnen',
     reset: 'Zurücksetzen',
     search: 'Suchen',
@@ -21,10 +23,16 @@ export default {
     fill: 'Füllen',
     title: 'Layout',
   },
+  login: {
+    title: 'Anmeldung',
+    username: 'Nutzername',
+    password: 'Passwort',
+  },
   misc: {
     navigation: 'Navigation',
     'no-data': 'Keine Daten verfügbar',
     'no-results': 'Keine Ergebnisse',
+    resources: 'Ressourcen',
   },
   settings: {
     appearance: 'Erscheinung',
