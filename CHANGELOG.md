@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/DerYeger/apollo-admin/compare/v1.3.3...v1.3.4) (2021-08-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency nuxt-i18n to v6.28.1 ([27748fe](https://github.com/DerYeger/apollo-admin/commit/27748fe88795fd76ecb096455b980e6e66fb9168))
+
 ## [1.3.3](https://github.com/DerYeger/apollo-admin/compare/v1.3.2...v1.3.3) (2021-08-03)
 
 
