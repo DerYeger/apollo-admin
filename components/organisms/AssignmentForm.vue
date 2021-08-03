@@ -16,8 +16,8 @@
         <v-text-field
           v-model="assignmentData.formula"
           type="text"
-          :counter="descriptionMaxLength"
-          :rules="descriptionRules"
+          :counter="formulaMaxLength"
+          :rules="formulaRules"
           :label="$t('assignments.create.formula')"
           required
         />
