@@ -1,7 +1,7 @@
 {
   "name": "Apollo Admin",
   "short_name": "Apollo Admin",
-  "description": "## Build Setup",
+  "description": "- 🛠 **Users**: Manage (administrative) users of the [Apollo-Backend](https://github.com/DerYeger/apollo-backend) - ✨ **Assignments**: Manage assignments of the [Apollo-Backend](https://github.com/DerYeger/apollo-backend) - 📱/💻 **Responsive**: Optimized for screens of all sizes - 📶 **PWA**: Installable with local caching - 🌐 **Localization**: Fully localized in English and German - 🌗 **Themes**: Dark and light designs",
   "icons": [
     {
       "src": "/_nuxt/icons/icon_64x64.b2e05f.png",
