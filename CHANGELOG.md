@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/DerYeger/apollo-admin/compare/v1.3.2...v1.3.3) (2021-08-03)
+
+
+### Bug Fixes
+
+* use correct rules for assignment formula ([e74df70](https://github.com/DerYeger/apollo-admin/commit/e74df708f5127ef321c0b50c06b218cea8356a7a))
+
 ## [1.3.2](https://github.com/DerYeger/apollo-admin/compare/v1.3.1...v1.3.2) (2021-08-02)
 
 
