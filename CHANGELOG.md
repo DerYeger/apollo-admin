@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/DerYeger/apollo-admin/compare/v1.3.5...v1.4.0) (2021-08-12)
+
+
+### Features
+
+* **i18n:** migrate to @nuxtjs/i18n ([65d1049](https://github.com/DerYeger/apollo-admin/commit/65d1049b6502a99c4bcfb2b637ed84d8a037535d))
+
 ## [1.3.5](https://github.com/DerYeger/apollo-admin/compare/v1.3.4...v1.3.5) (2021-08-08)
 
 
