@@ -39,6 +39,8 @@ export default {
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
     '@nuxtjs/composition-api/module',
+    // https://color-mode.nuxtjs.org/
+    '@nuxtjs/color-mode',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -83,8 +85,9 @@ export default {
     resetOnError: true,
   },
 
-  router: {
-    middleware: ['auth'],
+  colorMode: {
+    preference: 'system',
+    fallback: 'light',
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
@@ -101,6 +104,10 @@ export default {
       twitterCreator: '@DerYeger',
     },
     icon: {},
+  },
+
+  router: {
+    middleware: ['auth'],
   },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
