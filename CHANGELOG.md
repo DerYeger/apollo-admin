@@ -1,3 +1,12 @@
+# [1.5.0](https://github.com/DerYeger/apollo-admin/compare/v1.4.0...v1.5.0) (2021-08-17)
+
+
+### Features
+
+* inline icons ([d0da073](https://github.com/DerYeger/apollo-admin/commit/d0da073d36bce582461d844b2a67d120ecdd38c2))
+* migrate to @yeger/vue2-masonry-wall ([cc9cde7](https://github.com/DerYeger/apollo-admin/commit/cc9cde7522d4165bc3858c96cb9b8d8c66689d75))
+* use nuxt-color-mode ([a21e920](https://github.com/DerYeger/apollo-admin/commit/a21e920dc2daecdb1abaa516869bb6f10cf65963))
+
 # [1.4.0](https://github.com/DerYeger/apollo-admin/compare/v1.3.5...v1.4.0) (2021-08-12)
 
 
