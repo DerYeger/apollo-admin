@@ -1,3 +1,5 @@
+import { mdiAccountMultiple, mdiCog, mdiHome, mdiTextBoxMultiple } from '@mdi/js'
+
 export interface Route {
   readonly title: string
   readonly navTitle?: string
@@ -9,22 +11,22 @@ export const routes = {
   dashboard: {
     title: 'dashboard.title',
     to: '/',
-    icon: 'mdi-home',
+    icon: mdiHome,
   },
   assignments: {
     title: 'assignments.title',
     to: '/assignments',
-    icon: 'mdi-text-box-multiple',
+    icon: mdiTextBoxMultiple,
   },
   users: {
     title: 'users.title',
     to: '/users',
-    icon: 'mdi-account-multiple',
+    icon: mdiAccountMultiple,
   },
   settings: {
     title: 'settings.title',
     to: '/settings',
-    icon: 'mdi-cog',
+    icon: mdiCog,
   },
   login: {
     title: 'login.title',

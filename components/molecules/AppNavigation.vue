@@ -4,7 +4,7 @@
     <route-list-item v-for="(route, i) in routes" :key="i" :route="route" />
     <v-list-item @click="logout()">
       <v-list-item-icon>
-        <v-icon v-text="'mdi-logout'" />
+        <v-icon>{{ mdiLogout }}</v-icon>
       </v-list-item-icon>
       <v-list-item-title>
         {{ $t('actions.logout') }}
@@ -15,6 +15,7 @@
 
 <script lang="ts">
 import { defineComponent, useContext, useRouter } from '@nuxtjs/composition-api'
+import { mdiLogout } from '@mdi/js'
 import { routes } from '~/model/routes'
 
 export default defineComponent({
@@ -28,6 +29,7 @@ export default defineComponent({
 
     return {
       logout,
+      mdiLogout,
       routes: [routes.dashboard, routes.assignments, routes.users, routes.settings],
     }
   },

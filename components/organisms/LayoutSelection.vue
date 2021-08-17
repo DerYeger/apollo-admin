@@ -1,5 +1,5 @@
 <template>
-  <v-select v-model="layout" :items="layoutOptions" :label="$t('layout.title')" dense>
+  <v-select v-model="layout" :items="layoutOptions" :label="$t('layout.title')" dense :append-icon="mdiMenuDown">
     <template #selection="{ item }">
       {{ $t(`layout.${item}`) }}
     </template>
@@ -16,6 +16,7 @@
 </template>
 
 <script lang="ts">
+import { mdiMenuDown } from '@mdi/js'
 import { defineComponent } from '@nuxtjs/composition-api'
 import { Layout, layouts } from '~/model/layout'
 
@@ -23,6 +24,7 @@ export default defineComponent({
   data() {
     return {
       layoutOptions: layouts,
+      mdiMenuDown,
     }
   },
   computed: {

@@ -2,7 +2,7 @@
   <v-menu>
     <template #activator="{ on, attrs }">
       <v-btn icon v-bind="attrs" :aria-label="$t('actions.change-language')" v-on="on">
-        <v-icon v-text="'mdi-translate'" />
+        <v-icon>{{ mdiTranslate }}</v-icon>
       </v-btn>
     </template>
     <v-list>
@@ -15,6 +15,7 @@
 
 <script lang="ts">
 import { defineComponent } from '@nuxtjs/composition-api'
+import { mdiTranslate } from '@mdi/js'
 
 export default defineComponent({
   data() {
@@ -23,6 +24,7 @@ export default defineComponent({
         code: locale,
         name: this.$t(`locales.${locale}`),
       })),
+      mdiTranslate,
     }
   },
 })

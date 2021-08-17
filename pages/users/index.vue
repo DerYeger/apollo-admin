@@ -5,7 +5,7 @@
         <template #default="{ item }">
           <v-card v-if="item !== undefined" elevation="3">
             <v-card-title>
-              <v-icon class="mr-2" color="primary" v-text="'mdi-account'" />
+              <v-icon class="mr-2" color="primary">{{ mdiAccount }}</v-icon>
               {{ item.name }}
             </v-card-title>
             <v-card-subtitle>
@@ -14,10 +14,10 @@
             <v-card-actions>
               <v-spacer />
               <v-btn icon color="primary" :aria-label="$t('actions.edit')" disabled>
-                <v-icon v-text="'mdi-pencil'" />
+                <v-icon>{{ mdiPencil }}</v-icon>
               </v-btn>
               <v-btn :disabled="item.id === currentUser.id" icon color="error" :aria-label="$t('actions.delete')" @click="deleteUser(item)">
-                <v-icon v-text="'mdi-delete'" />
+                <v-icon>{{ mdiDelete }}</v-icon>
               </v-btn>
             </v-card-actions>
           </v-card>
@@ -30,6 +30,7 @@
 
 <script lang="ts">
 import { computed, defineComponent, onMounted, useContext, useStore } from '@nuxtjs/composition-api'
+import { mdiAccount, mdiDelete, mdiPencil } from '@mdi/js'
 import { routes } from '~/model/routes'
 import { useHead } from '~/compositions/head'
 import { User } from '~/model/user'
@@ -61,6 +62,9 @@ export default defineComponent({
     return {
       currentUser: $auth.user,
       deleteUser,
+      mdiAccount,
+      mdiDelete,
+      mdiPencil,
       users,
     }
   },

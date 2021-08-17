@@ -5,7 +5,9 @@
       :aria-label="$t(value ? 'actions.close-menu' : 'actions.open-menu')"
       class="ml-n4"
       @click="$emit('input', !value)"
-    />
+    >
+      <v-icon>{{ mdiMenu }}</v-icon>
+    </v-app-bar-nav-icon>
     <logo class="ml-lg-n2" />
     <v-spacer />
     <language-menu />
@@ -14,6 +16,7 @@
 </template>
 
 <script lang="ts">
+import { mdiMenu } from '@mdi/js'
 import { defineComponent } from '@nuxtjs/composition-api'
 
 export default defineComponent({
@@ -22,6 +25,11 @@ export default defineComponent({
       type: Boolean,
       required: true,
     },
+  },
+  data() {
+    return {
+      mdiMenu,
+    }
   },
 })
 </script>
