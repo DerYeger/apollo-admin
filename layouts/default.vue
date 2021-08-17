@@ -1,11 +1,23 @@
 <template>
   <v-app>
-    <v-navigation-drawer v-model="drawerOpen" fixed app :permanent="$vuetify.breakpoint.lgAndUp" :clipped="true">
+    <v-navigation-drawer
+      v-model="drawerOpen"
+      fixed
+      app
+      :permanent="$vuetify.breakpoint.lgAndUp"
+      :clipped="true"
+    >
       <app-sidebar />
     </v-navigation-drawer>
     <app-header v-model="drawerOpen" />
     <v-main>
-      <v-container class="page-container" :class="{ 'bound-width': layout === 'compact', 'unbound-width': layout === 'fill' }">
+      <v-container
+        class="page-container"
+        :class="{
+          'bound-width': layout === 'compact',
+          'unbound-width': layout === 'fill',
+        }"
+      >
         <nuxt />
       </v-container>
     </v-main>
@@ -31,7 +43,9 @@ export default defineComponent({
       link: [
         {
           rel: 'canonical',
-          href: `https://apollo-admin.yeger.eu${path.length > 1 ? path : ''}/`.replace('//', '/'),
+          href: `https://apollo-admin.yeger.eu${
+            path.length > 1 ? path : ''
+          }/`.replace('//', '/'),
         },
       ],
     }

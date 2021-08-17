@@ -1,5 +1,11 @@
 <template>
-  <v-select v-model="layout" :items="layoutOptions" :label="$t('layout.title')" dense :append-icon="mdiMenuDown">
+  <v-select
+    v-model="layout"
+    :items="layoutOptions"
+    :label="$t('layout.title')"
+    dense
+    :append-icon="mdiMenuDown"
+  >
     <template #selection="{ item }">
       {{ $t(`layout.${item}`) }}
     </template>

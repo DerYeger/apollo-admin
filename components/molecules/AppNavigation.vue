@@ -30,7 +30,12 @@ export default defineComponent({
     return {
       logout,
       mdiLogout,
-      routes: [routes.dashboard, routes.assignments, routes.users, routes.settings],
+      routes: [
+        routes.dashboard,
+        routes.assignments,
+        routes.users,
+        routes.settings,
+      ],
     }
   },
 })

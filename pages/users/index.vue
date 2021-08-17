@@ -1,7 +1,12 @@
 <template>
   <div style="width: 100%">
     <client-only>
-      <masonry-wall :items="users" :ssr-columns="1" :column-width="400" :padding="12">
+      <masonry-wall
+        :items="users"
+        :ssr-columns="1"
+        :column-width="400"
+        :padding="12"
+      >
         <template #default="{ item }">
           <v-card v-if="item !== undefined" elevation="3">
             <v-card-title>
@@ -13,10 +18,21 @@
             </v-card-subtitle>
             <v-card-actions>
               <v-spacer />
-              <v-btn icon color="primary" :aria-label="$t('actions.edit')" disabled>
+              <v-btn
+                icon
+                color="primary"
+                :aria-label="$t('actions.edit')"
+                disabled
+              >
                 <v-icon>{{ mdiPencil }}</v-icon>
               </v-btn>
-              <v-btn :disabled="item.id === currentUser.id" icon color="error" :aria-label="$t('actions.delete')" @click="deleteUser(item)">
+              <v-btn
+                :disabled="item.id === currentUser.id"
+                icon
+                color="error"
+                :aria-label="$t('actions.delete')"
+                @click="deleteUser(item)"
+              >
                 <v-icon>{{ mdiDelete }}</v-icon>
               </v-btn>
             </v-card-actions>
@@ -29,7 +45,13 @@
 </template>
 
 <script lang="ts">
-import { computed, defineComponent, onMounted, useContext, useStore } from '@nuxtjs/composition-api'
+import {
+  computed,
+  defineComponent,
+  onMounted,
+  useContext,
+  useStore,
+} from '@nuxtjs/composition-api'
 import { mdiAccount, mdiDelete, mdiPencil } from '@mdi/js'
 import { routes } from '~/model/routes'
 import { useHead } from '~/compositions/head'

@@ -1,4 +1,9 @@
-import { mdiAccountMultiple, mdiCog, mdiHome, mdiTextBoxMultiple } from '@mdi/js'
+import {
+  mdiAccountMultiple,
+  mdiCog,
+  mdiHome,
+  mdiTextBoxMultiple,
+} from '@mdi/js'
 
 export interface Route {
   readonly title: string

@@ -1,7 +1,12 @@
 <template>
   <div style="width: 100%">
     <client-only>
-      <masonry-wall :items="assignments" :ssr-columns="1" :column-width="400" :padding="12">
+      <masonry-wall
+        :items="assignments"
+        :ssr-columns="1"
+        :column-width="400"
+        :padding="12"
+      >
         <template #default="{ item }">
           <v-card v-if="item !== undefined" elevation="3">
             <v-card-title>
@@ -19,10 +24,20 @@
             </v-card-subtitle>
             <v-card-actions>
               <v-spacer />
-              <v-btn icon color="primary" :aria-label="$t('actions.edit')" disabled>
+              <v-btn
+                icon
+                color="primary"
+                :aria-label="$t('actions.edit')"
+                disabled
+              >
                 <v-icon>{{ mdiPencil }}</v-icon>
               </v-btn>
-              <v-btn icon color="error" :aria-label="$t('actions.delete')" @click="deleteAssignment(item)">
+              <v-btn
+                icon
+                color="error"
+                :aria-label="$t('actions.delete')"
+                @click="deleteAssignment(item)"
+              >
                 <v-icon>{{ mdiDelete }}</v-icon>
               </v-btn>
             </v-card-actions>
@@ -35,7 +50,13 @@
 </template>
 
 <script lang="ts">
-import { computed, defineComponent, onMounted, useContext, useStore } from '@nuxtjs/composition-api'
+import {
+  computed,
+  defineComponent,
+  onMounted,
+  useContext,
+  useStore,
+} from '@nuxtjs/composition-api'
 import { Assignment } from 'model/assignment'
 import { mdiDelete, mdiPencil, mdiTextBox } from '@mdi/js'
 import { routes } from '~/model/routes'
@@ -51,10 +72,14 @@ export default defineComponent({
     const store = useStore()
     onMounted(async () => {
       const assignments = (await $axios.get<Assignment[]>('/assignments')).data
-      assignments.forEach((assignment: Assignment) => store.commit('assignments/add', assignment))
+      assignments.forEach((assignment: Assignment) =>
+        store.commit('assignments/add', assignment)
+      )
     })
 
-    const assignments = computed<User[]>(() => store.getters['assignments/assignments'])
+    const assignments = computed<User[]>(
+      () => store.getters['assignments/assignments']
+    )
 
     const deleteAssignment = async function (assignment: Assignment) {
       try {

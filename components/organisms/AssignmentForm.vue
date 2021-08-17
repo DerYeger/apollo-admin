@@ -31,14 +31,22 @@
       </v-card-text>
       <v-card-actions>
         <v-spacer />
-        <v-btn color="secondary" type="submit" :disabled="!valid">{{ $t('actions.create') }}</v-btn>
+        <v-btn color="secondary" type="submit" :disabled="!valid">
+          {{ $t('actions.create') }}
+        </v-btn>
       </v-card-actions>
     </v-card>
   </v-form>
 </template>
 
 <script lang="ts">
-import { defineComponent, reactive, ref, useContext, useStore } from '@nuxtjs/composition-api'
+import {
+  defineComponent,
+  reactive,
+  ref,
+  useContext,
+  useStore,
+} from '@nuxtjs/composition-api'
 import { maxLengthRule, textRules } from '~/model/rules'
 import { Assignment } from '~/model/assignment'
 
@@ -71,7 +79,9 @@ export default defineComponent({
         if (description.length >= 1) {
           body.description = description
         }
-        const createdAssignment = (await $axios.post<Assignment>('/assignments', body)).data
+        const createdAssignment = (
+          await $axios.post<Assignment>('/assignments', body)
+        ).data
         store.commit('assignments/add', createdAssignment)
         resetForm()
         emit('create')

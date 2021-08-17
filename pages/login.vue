@@ -1,6 +1,18 @@
 <template>
-  <v-form v-model="valid" style="width: 100%; max-width: 450px" class="d-flex justify-center flex-column" @submit.prevent="login">
-    <v-banner v-if="wasLoggedOut" color="secondary" class="mb-3" dark rounded elevation="6">
+  <v-form
+    v-model="valid"
+    style="width: 100%; max-width: 450px"
+    class="d-flex justify-center flex-column"
+    @submit.prevent="login"
+  >
+    <v-banner
+      v-if="wasLoggedOut"
+      color="secondary"
+      class="mb-3"
+      dark
+      rounded
+      elevation="6"
+    >
       {{ $t('login.logout-successful') }}
     </v-banner>
     <v-card width="100%" max-width="450px" elevation="6">
@@ -27,14 +39,24 @@
       </v-card-text>
       <v-card-actions>
         <v-spacer />
-        <v-btn color="secondary" type="submit" :disabled="!valid">{{ $t('actions.login') }}</v-btn>
+        <v-btn color="secondary" type="submit" :disabled="!valid">{{
+          $t('actions.login')
+        }}</v-btn>
       </v-card-actions>
     </v-card>
   </v-form>
 </template>
 
 <script lang="ts">
-import { computed, defineComponent, reactive, ref, useContext, useRoute, useRouter } from '@nuxtjs/composition-api'
+import {
+  computed,
+  defineComponent,
+  reactive,
+  ref,
+  useContext,
+  useRoute,
+  useRouter,
+} from '@nuxtjs/composition-api'
 import { Credentials } from '~/model/credentials'
 import { useHead } from '~/compositions/head'
 import { routes } from '~/model/routes'

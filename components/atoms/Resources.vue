@@ -1,7 +1,13 @@
 <template>
   <v-list-item-group color="info">
     <v-subheader>{{ $t('misc.resources') }}</v-subheader>
-    <v-list-item class="text--primary" rel="noopener" href="https://github.com/DerYeger/apollo-admin" target="_blank" input-value="false">
+    <v-list-item
+      class="text--primary"
+      rel="noopener"
+      href="https://github.com/DerYeger/apollo-admin"
+      target="_blank"
+      input-value="false"
+    >
       <v-list-item-icon>
         <v-icon class="text--secondary">{{ mdiGithub }}</v-icon>
       </v-list-item-icon>

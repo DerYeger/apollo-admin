@@ -32,14 +32,22 @@
       </v-card-text>
       <v-card-actions>
         <v-spacer />
-        <v-btn color="secondary" type="submit" :disabled="!valid">{{ $t('actions.create') }}</v-btn>
+        <v-btn color="secondary" type="submit" :disabled="!valid">
+          {{ $t('actions.create') }}
+        </v-btn>
       </v-card-actions>
     </v-card>
   </v-form>
 </template>
 
 <script lang="ts">
-import { defineComponent, reactive, ref, useContext, useStore } from '@nuxtjs/composition-api'
+import {
+  defineComponent,
+  reactive,
+  ref,
+  useContext,
+  useStore,
+} from '@nuxtjs/composition-api'
 import { Rule, textRules } from '~/model/rules'
 import { User } from '~/model/user'
 
@@ -81,7 +89,9 @@ export default defineComponent({
     const valid = ref(false)
     const maxInputLength = 30
     const rules = textRules(app.i18n, maxInputLength)
-    const repeatPasswordRule: Rule = (v: string) => v === userData.password || (app.i18n.t('validations.must-match-password') as string)
+    const repeatPasswordRule: Rule = (v: string) =>
+      v === userData.password ||
+      (app.i18n.t('validations.must-match-password') as string)
     const repeatPasswordRules = [...rules, repeatPasswordRule]
 
     return {
