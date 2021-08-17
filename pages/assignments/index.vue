@@ -1,7 +1,7 @@
 <template>
   <div style="width: 100%">
     <client-only>
-      <vue-masonry-wall :items="assignments" :ssr="{ columns: 1 }" :options="{ width: 400, padding: 6 }">
+      <masonry-wall :items="assignments" :ssr-columns="1" :column-width="400" :padding="12">
         <template #default="{ item }">
           <v-card v-if="item !== undefined" elevation="3">
             <v-card-title>
@@ -28,7 +28,7 @@
             </v-card-actions>
           </v-card>
         </template>
-      </vue-masonry-wall>
+      </masonry-wall>
     </client-only>
     <create-assignment-fab />
   </div>

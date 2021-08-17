@@ -24,7 +24,7 @@ export default {
     { src: '~/plugins/persistedState.client.ts' },
     { src: '~/plugins/pwaUpdate.client.ts' },
     { src: '~/plugins/storageManager.ts' },
-    { src: '~/plugins/vueMasonryWall.js' },
+    { src: '~/plugins/masonryWall.ts' },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
