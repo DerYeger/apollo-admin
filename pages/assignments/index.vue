@@ -50,6 +50,7 @@
 </template>
 
 <script lang="ts">
+import { mdiDelete, mdiPencil, mdiTextBox } from '@mdi/js'
 import {
   computed,
   defineComponent,
@@ -57,8 +58,7 @@ import {
   useContext,
   useStore,
 } from '@nuxtjs/composition-api'
-import { Assignment } from 'model/assignment'
-import { mdiDelete, mdiPencil, mdiTextBox } from '@mdi/js'
+import { Assignment } from '~/model/assignment'
 import { routes } from '~/model/routes'
 import { useHead } from '~/compositions/head'
 import { User } from '~/model/user'
