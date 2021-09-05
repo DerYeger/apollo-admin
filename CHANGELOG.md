@@ -1,3 +1,10 @@
+## [1.5.10](https://github.com/DerYeger/apollo-admin/compare/v1.5.9...v1.5.10) (2021-09-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nuxtjs/composition-api to v0.28.0 ([2f1a64a](https://github.com/DerYeger/apollo-admin/commit/2f1a64a23821a2c3460336c178210e609ece53f7))
+
 ## [1.5.9](https://github.com/DerYeger/apollo-admin/compare/v1.5.8...v1.5.9) (2021-09-03)
 
 
