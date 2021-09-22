@@ -1,3 +1,10 @@
+## [1.5.17](https://github.com/DerYeger/apollo-admin/compare/v1.5.16...v1.5.17) (2021-09-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency vuex-persistedstate to v4.1.0 ([e982b4c](https://github.com/DerYeger/apollo-admin/commit/e982b4cd266913677c763824faa0968750b9ab20))
+
 ## [1.5.16](https://github.com/DerYeger/apollo-admin/compare/v1.5.15...v1.5.16) (2021-09-22)
 
 
