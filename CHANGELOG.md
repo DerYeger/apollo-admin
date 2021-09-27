@@ -1,3 +1,10 @@
+## [1.5.18](https://github.com/DerYeger/apollo-admin/compare/v1.5.17...v1.5.18) (2021-09-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency core-js to v3.18.1 ([049c5cc](https://github.com/DerYeger/apollo-admin/commit/049c5cc4e096b47aeb35af0eea0af88f13f6e852))
+
 ## [1.5.17](https://github.com/DerYeger/apollo-admin/compare/v1.5.16...v1.5.17) (2021-09-22)
 
 
