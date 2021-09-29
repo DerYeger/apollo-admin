@@ -5,7 +5,7 @@
         :items="assignments"
         :ssr-columns="1"
         :column-width="400"
-        :padding="12"
+        :gap="12"
       >
         <template #default="{ item }">
           <v-card v-if="item !== undefined" elevation="3">
