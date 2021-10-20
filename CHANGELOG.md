@@ -1,3 +1,10 @@
+## [1.5.28](https://github.com/DerYeger/apollo-admin/compare/v1.5.27...v1.5.28) (2021-10-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nuxtjs/i18n to v7.1.0 ([b2b0fdc](https://github.com/DerYeger/apollo-admin/commit/b2b0fdcb3936f6af8a192811299a98d91b9575aa))
+
 ## [1.5.27](https://github.com/DerYeger/apollo-admin/compare/v1.5.26...v1.5.27) (2021-10-15)
 
 
