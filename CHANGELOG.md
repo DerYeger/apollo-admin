@@ -1,3 +1,10 @@
+## [1.5.43](https://github.com/DerYeger/apollo-admin/compare/v1.5.42...v1.5.43) (2021-11-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency vue-persistent-storage-manager to v2.0.11 ([ace476e](https://github.com/DerYeger/apollo-admin/commit/ace476eb717aa38d493a2c0a84efb4bdd94a0c9b))
+
 ## [1.5.42](https://github.com/DerYeger/apollo-admin/compare/v1.5.41...v1.5.42) (2021-11-20)
 
 
