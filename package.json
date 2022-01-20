@@ -25,7 +25,7 @@
     }
   },
   "dependencies": {
-    "@nuxtjs/auth-next": "5.0.0-1642502410.8e1c713",
+    "@nuxtjs/auth-next": "5.0.0-1642593631.b151936",
     "@nuxtjs/axios": "5.13.6",
     "@nuxtjs/composition-api": "0.31.0",
     "@nuxtjs/i18n": "7.2.0",
