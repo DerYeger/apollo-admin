@@ -1,3 +1,10 @@
+## [1.5.77](https://github.com/DerYeger/apollo-admin/compare/v1.5.76...v1.5.77) (2022-01-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nuxtjs/auth-next to v5.0.0-1643023090.140d3d1 ([6a90f17](https://github.com/DerYeger/apollo-admin/commit/6a90f173f8316dcc324c03b49dcd2b197929d418))
+
 ## [1.5.76](https://github.com/DerYeger/apollo-admin/compare/v1.5.75...v1.5.76) (2022-01-23)
 
 
