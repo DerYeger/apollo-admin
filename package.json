@@ -1,6 +1,6 @@
 {
   "name": "apollo-admin",
-  "version": "1.5.81",
+  "version": "1.5.82",
   "private": true,
   "scripts": {
     "dev": "nuxt",
