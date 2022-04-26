@@ -1,3 +1,10 @@
+## [1.5.115](https://github.com/DerYeger/apollo-admin/compare/v1.5.114...v1.5.115) (2022-04-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nuxtjs/i18n to v7.2.2 ([65f038b](https://github.com/DerYeger/apollo-admin/commit/65f038b81578966e1bb4169ec16fc8ce119636dc))
+
 ## [1.5.114](https://github.com/DerYeger/apollo-admin/compare/v1.5.113...v1.5.114) (2022-04-22)
 
 
