@@ -1,3 +1,10 @@
+## [1.5.138](https://github.com/DerYeger/apollo-admin/compare/v1.5.137...v1.5.138) (2022-06-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @yeger/vue2-masonry-wall to v2.0.34 ([6cf2041](https://github.com/DerYeger/apollo-admin/commit/6cf20416df949a9df60b8d705cf0c25f739f6db2))
+
 ## [1.5.137](https://github.com/DerYeger/apollo-admin/compare/v1.5.136...v1.5.137) (2022-06-15)
 
 
