@@ -31,8 +31,8 @@
     "@nuxtjs/i18n": "7.2.2",
     "@nuxtjs/pwa": "3.3.5",
     "@nuxtjs/sitemap": "2.4.0",
-    "@yeger/vue2-masonry-wall": "2.0.39",
-    "core-js": "3.24.0",
+    "@yeger/vue2-masonry-wall": "2.0.40",
+    "core-js": "3.24.1",
     "nuxt": "2.15.8",
     "secure-ls": "1.2.6",
     "vue": "2.6.14",
@@ -77,6 +77,6 @@
     "stylelint-scss": "4.3.0",
     "ts-jest": "27.1.5",
     "vue-jest": "3.0.7",
-    "vuetify": "2.6.7"
+    "vuetify": "2.6.8"
   }
 }
