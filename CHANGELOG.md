@@ -1,3 +1,10 @@
+## [1.5.154](https://github.com/DerYeger/apollo-admin/compare/v1.5.153...v1.5.154) (2022-08-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-import-resolver-typescript to v3 ([4601943](https://github.com/DerYeger/apollo-admin/commit/4601943166721faa37ee374674b6ea3c61655ca4))
+
 ## [1.5.153](https://github.com/DerYeger/apollo-admin/compare/v1.5.152...v1.5.153) (2022-08-16)
 
 
