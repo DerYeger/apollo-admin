@@ -1,3 +1,10 @@
+## [1.5.164](https://github.com/DerYeger/apollo-admin/compare/v1.5.163...v1.5.164) (2022-09-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nuxtjs/eslint-config-typescript to v11 ([39a1240](https://github.com/DerYeger/apollo-admin/commit/39a12403f0428428d05e5f885fe8948b90d405fc))
+
 ## [1.5.163](https://github.com/DerYeger/apollo-admin/compare/v1.5.162...v1.5.163) (2022-09-03)
 
 
