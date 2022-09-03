@@ -1,3 +1,10 @@
+## [1.5.163](https://github.com/DerYeger/apollo-admin/compare/v1.5.162...v1.5.163) (2022-09-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-nuxt to v4 ([9ccb822](https://github.com/DerYeger/apollo-admin/commit/9ccb8224686255681550d0a12ca24c2fac41cc42))
+
 ## [1.5.162](https://github.com/DerYeger/apollo-admin/compare/v1.5.161...v1.5.162) (2022-09-03)
 
 
