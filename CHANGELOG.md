@@ -1,3 +1,10 @@
+## [1.5.168](https://github.com/DerYeger/apollo-admin/compare/v1.5.167...v1.5.168) (2022-09-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency vuetify to v2.6.10 [security] ([37be8a7](https://github.com/DerYeger/apollo-admin/commit/37be8a7b153cdfd50870244cfa7a13ccdcbcac59))
+
 ## [1.5.167](https://github.com/DerYeger/apollo-admin/compare/v1.5.166...v1.5.167) (2022-09-17)
 
 
