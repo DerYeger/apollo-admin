@@ -1,3 +1,10 @@
+## [1.5.170](https://github.com/DerYeger/apollo-admin/compare/v1.5.169...v1.5.170) (2022-09-24)
+
+
+### Bug Fixes
+
+* **deps:** update actions/stale action to v6 ([8ff6190](https://github.com/DerYeger/apollo-admin/commit/8ff6190134c6b372d9f0ed1e27cdc1789c800ecc))
+
 ## [1.5.169](https://github.com/DerYeger/apollo-admin/compare/v1.5.168...v1.5.169) (2022-09-24)
 
 
