@@ -1,3 +1,10 @@
+## [1.5.180](https://github.com/DerYeger/apollo-admin/compare/v1.5.179...v1.5.180) (2022-11-05)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to v17.2.0 ([784ebd0](https://github.com/DerYeger/apollo-admin/commit/784ebd0b8f23f36685534b25d3e76e4e289ba181))
+
 ## [1.5.179](https://github.com/DerYeger/apollo-admin/compare/v1.5.178...v1.5.179) (2022-11-05)
 
 
