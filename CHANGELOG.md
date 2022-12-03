@@ -1,3 +1,10 @@
+## [1.5.187](https://github.com/DerYeger/apollo-admin/compare/v1.5.186...v1.5.187) (2022-12-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @typescript-eslint/parser to v5.45.0 ([3185c22](https://github.com/DerYeger/apollo-admin/commit/3185c22f6bdbf7c852460113e82790136590350d))
+
 ## [1.5.186](https://github.com/DerYeger/apollo-admin/compare/v1.5.185...v1.5.186) (2022-11-26)
 
 
