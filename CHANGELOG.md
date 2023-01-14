@@ -1,3 +1,10 @@
+## [1.5.198](https://github.com/DerYeger/apollo-admin/compare/v1.5.197...v1.5.198) (2023-01-14)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#66](https://github.com/DerYeger/apollo-admin/issues/66)) ([2f1cdf9](https://github.com/DerYeger/apollo-admin/commit/2f1cdf95f7342cf5640b4b708f7960a2b837ab26))
+
 ## [1.5.197](https://github.com/DerYeger/apollo-admin/compare/v1.5.196...v1.5.197) (2023-01-14)
 
 
