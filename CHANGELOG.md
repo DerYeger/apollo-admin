@@ -1,3 +1,10 @@
+## [1.5.200](https://github.com/DerYeger/apollo-admin/compare/v1.5.199...v1.5.200) (2023-01-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @vue/test-utils to v1.3.4 ([c118e66](https://github.com/DerYeger/apollo-admin/commit/c118e66dc95d1b9330a036d01e1621481454261b))
+
 ## [1.5.199](https://github.com/DerYeger/apollo-admin/compare/v1.5.198...v1.5.199) (2023-01-21)
 
 
