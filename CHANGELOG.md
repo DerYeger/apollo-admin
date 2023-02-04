@@ -1,3 +1,10 @@
+## [1.5.201](https://github.com/DerYeger/apollo-admin/compare/v1.5.200...v1.5.201) (2023-02-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nuxt/types to v2.16.0 ([296637e](https://github.com/DerYeger/apollo-admin/commit/296637e173ff388aedcb201c4c8b16293421f5c6))
+
 ## [1.5.200](https://github.com/DerYeger/apollo-admin/compare/v1.5.199...v1.5.200) (2023-01-28)
 
 
