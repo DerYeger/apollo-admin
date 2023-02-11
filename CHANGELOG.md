@@ -1,3 +1,10 @@
+## [1.5.204](https://github.com/DerYeger/apollo-admin/compare/v1.5.203...v1.5.204) (2023-02-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint to v15 ([#68](https://github.com/DerYeger/apollo-admin/issues/68)) ([8bb4621](https://github.com/DerYeger/apollo-admin/commit/8bb4621f0d85b4d58cf62e0701be286e31b3f259))
+
 ## [1.5.203](https://github.com/DerYeger/apollo-admin/compare/v1.5.202...v1.5.203) (2023-02-11)
 
 
