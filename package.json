@@ -41,8 +41,8 @@
     "vuex-persistedstate": "4.1.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.4.2",
-    "@commitlint/config-conventional": "17.4.2",
+    "@commitlint/cli": "17.4.4",
+    "@commitlint/config-conventional": "17.4.4",
     "@mdi/js": "7.1.96",
     "@nuxt/types": "2.16.0",
     "@nuxt/typescript-build": "2.1.0",
