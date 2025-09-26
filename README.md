@@ -23,8 +23,8 @@
 </p>
 
 <p align="center">
-   <a href="https://apollo.yeger.eu/">
-    apollo.yeger.eu
+   <a href="https://apollo.janmueller.dev/">
+    apollo.janmueller.dev
   </a>
 </p>
 
